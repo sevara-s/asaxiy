@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="header p-[10px] mb-[30px]">
+      <div class="container flex items-center justify-between">
+        <img src="./imgs/logo.png" alt="" />
+        <!-- category started -->
+        <div
+          class="category rounded-[10px] bg-[#006bff] flex items-center gap-[10px] px-[15px] py-[8px]"
+        >
+          <img src="./svgs/category.svg" alt="" />
+          <p class="font-[400] text-[14px] text-center text-[#fff]">
+            Категории
+          </p>
+        </div>
+        <!-- category ended -->
+
+        <!-- search started -->
+        <div class="search flex">
+          <input class="input_search" type="search" placeholder="Поиск..." />
+          <button class="search_btn">Искать</button>
+        </div>
+        <!-- search ended -->
+
+        <!-- header_catalogs started -->
+        <div class="header_catalogs flex items-center gap-[40px]">
+          <!-- likes -->
+          <div class="likes flex items-center flex-col">
+            <img src="./svgs/icon5.svg" alt="" />
+            <a class="font-[400] text-[12px] text-[#000]" href="">Избранное</a>
+          </div>
+          <!-- likes -->
+
+          <!-- korzinka -->
+          <div class="korzinka flex items-center flex-col">
+            <img src="./svgs/icon4.svg" alt="" />
+            <a class="font-[400] text-[12px] text-[#000]" href="">Корзина</a>
+          </div>
+          <!-- korzinka -->
+
+          <!-- personal -->
+          <div class="personal flex items-center flex-col">
+            <img src="./svgs/icon6.svg" alt="" />
+            <a class="font-[400] text-[12px] text-[#000]" href="">Войти</a>
+          </div>
+          <!-- personal -->
+        </div>
+      </div>
+    </header>
+    <!-- header ended -->
+
+    <!--section: categories started -->
+    <section class="categories mb-[50px]">
+      <div class="container flex items-center justify-between">
+        <p>
+          <a class="font-[500] text-[15px] text-[#282830]" href="#">Скидки</a>
+        </p>
+        <p>
+          <a class="font-[500] text-[15px] text-[#282830]" href="#">0-0-6</a>
+        </p>
+        <p>
+          <a class="font-[500] text-[15px] text-[#282830]" href="#"
+            >Смартфоны</a
+          >
+        </p>
+        <p>
+          <a class="font-[500] text-[15px] text-[#282830]" href="#"
+            >Бытовая техника</a
+          >
+        </p>
+        <p>
+          <a class="font-[500] text-[15px] text-[#282830]" href="#">Книги</a>
+        </p>
+        <p>
+          <a class="font-[500] text-[15px] text-[#282830]" href="#">Ноутбуки</a>
+        </p>
+        <p>
+          <a class="font-[500] text-[15px] text-[#282830]" href="#"
+            >Бестселлер 2024</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- section:categories ended -->
+
+    <!-- section:swiper_cards started -->
+    <section class="pr_cards mb-[30px]">
+      <div class="container">
+        <!-- pr1 -->
+        <div class="pr1"></div>
+      </div>
+    </section>
+    <!-- section:swiper_cards ended -->
+
+    <!-- section:cards started -->
+    <section class="cards grid grid-cols-6 gap-6 w-[90%] m-auto">
+      <!-- card1 -->
+      <!-- <div class="flex flex-col gap-[10px]">
+        <div>
+          <img
+            src="https://images.uzum.uz/crm0jeuvip07shn579rg/t_product_540_high.jpg#1736222803923"
+            alt=""
+          />
+        </div>
+
+        <div class="flex flex-col gap-[5px]">
+          <h2 class="text-[14px]">
+            Смартфон Xiaomi Redmi 14C, 8+256Гб, 5160 мА/ч батарея, быстрая
+            зарядка 18W камера 50 МП AI
+          </h2>
+          <p><i class="bx bxs-star text-[gold]"></i>5.0</p>
+          <h2 class="font-[700] text-[18px] text-[#006bff]">1999900 so'm</h2>
+          <div class="monthly border border-[#fe7300] rounded-[4px] p-[7px]">
+            <h3 class="font-[500] text-[14px] text-[#fe7300]">
+              199 000 so'm/oyiga
+            </h3>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <button class="buy">Купить в один клик</button>
+            <div class="shopping_bag">
+              <i class="bx bx-shopping-bag text-2xl text-[white]"></i>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- card1 -->
+    </section>
+    <!-- section:cards ended -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

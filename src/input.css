@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (min-width: 1450px) {
+  .container {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
+i,
+button {
+  cursor: pointer;
+}
+.input_search {
+  border: 2px solid #006bff;
+  border-radius: 10px 0 0 10px;
+  background: #fff;
+  outline: none;
+  padding: 10px;
+}
+.search_btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  background: #006bff;
+  padding: 10px;
+}
+.buy {
+  border-radius: 10px;
+  background: #006bff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+  padding: 10px 15px;
+}
+.shopping_bag {
+  border-radius: 8px;
+  background: #00bfaf;
+  padding: 2px 15px;
+}
