@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="header p-[10px] mb-[30px]">
+      <div class="container flex items-center justify-between">
+        <a href="./index.html"><img src="./imgs/logo.png" alt="" /></a>
+        <!-- category started -->
+        <div
+          class="category rounded-[10px] bg-[#006bff] flex items-center gap-[10px] px-[15px] py-[8px]"
+        >
+          <img src="./svgs/category.svg" alt="" />
+          <p class="font-[400] text-[14px] text-center text-[#fff]">
+            Категории
+          </p>
+        </div>
+        <!-- category ended -->
+
+        <!-- search started -->
+        <div class="search flex">
+          <input class="input_search" type="search" placeholder="Поиск..." />
+          <button class="search_btn">Искать</button>
+        </div>
+        <!-- search ended -->
+
+        <!-- header_catalogs started -->
+        <div class="header_catalogs flex items-center gap-[40px]">
+          <!-- likes -->
+          <div class="likes flex items-center flex-col">
+            <img src="./svgs/icon5.svg" alt="" />
+            <a class="font-[400] text-[12px] text-[#000]" href="">Избранное</a>
+          </div>
+          <!-- likes -->
+
+          <!-- korzinka -->
+          <a href="./shop.html">
+            <div class="korzinka flex items-center flex-col">
+              <img src="./svgs/icon4.svg" alt="" />
+              <a class="font-[400] text-[12px] text-[#000]" href="">Корзина</a>
+            </div>
+          </a>
+          <!-- korzinka -->
+
+          <!-- personal -->
+          <div class="personal flex items-center flex-col">
+            <img src="./svgs/icon6.svg" alt="" />
+            <a class="font-[400] text-[12px] text-[#000]" href="">Войти</a>
+          </div>
+          <!-- personal -->
+        </div>
+      </div>
+    </header>
+    <!-- header ended -->
+  </body>
+</html>
